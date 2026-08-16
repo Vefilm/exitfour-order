@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- viewport-fit=cover so env(safe-area-inset-*) is live on a notched phone;
+     interactive-widget so the on-screen keyboard shrinks the layout viewport
+     rather than sliding the fixed dock underneath itself. -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>EXIT FOUR Equipment Portal</title>
+<link rel="icon" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/portal.css">
+</head>
+<body>
+
+<div class="field" aria-hidden="true"></div>
+
+<a class="skip" href="#answer">Skip to the answer</a>
+
+<header class="bar">
+  <span class="bar__word" role="img" aria-label="VEFILM"></span>
+
+  <nav class="bar__nav" aria-label="Sections">
+    <a href="#answer">Answer</a>
+    <a href="#decisions">Decisions</a>
+    <a href="#day">The day</a>
+    <a href="#list">The list</a>
+    <a href="#order">Order</a>
+  </nav>
+
+  <span class="bar__spacer"></span>
+
+  <span class="bar__status" id="barStatus"></span>
+
+  <div class="bar__total">
+    <span class="bar__total-label">Total before tax</span>
+    <span class="bar__total-value" id="barTotal">&mdash;</span>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <span class="hero__mark" aria-hidden="true"></span>
+    <div class="wrap">
+      <p class="hero__eyebrow">Equipment Audit &amp; Order</p>
+      <h1 class="hero__title" id="heroTitle">&nbsp;</h1>
+      <p class="hero__sub" id="heroSub">&nbsp;</p>
+      <p class="hero__meta" id="heroMeta"></p>
+    </div>
+  </section>
+
+  <!-- 1. THE ANSWER ---------------------------------------------------- -->
+  <section class="verdict" id="answer" aria-labelledby="verdictHead">
+    <div class="wrap">
+      <p class="eyebrow" id="verdictEyebrow">&nbsp;</p>
+      <h2 class="sr-only" id="verdictHead">The short answer</h2>
+      <div class="verdict__grid" id="verdict"></div>
+      <p class="verdict__foot" id="verdictFoot"></p>
+    </div>
+  </section>
+
+  <!-- 2. DECISIONS ----------------------------------------------------- -->
+  <section class="flow" id="decisions" aria-labelledby="flowHead">
+    <div class="wrap">
+      <div class="sec__head">
+        <h2 class="sec__name" id="flowHead">What you need to decide</h2>
+        <span class="sec__rule"></span>
+        <span class="sec__sum" id="flowProgress"></span>
+      </div>
+      <div class="steps" id="steps"></div>
+
+      <details class="disc" id="flagsWrap">
+        <summary class="disc__sum" id="flagsSummary">Lines I have flagged</summary>
+        <div class="disc__body" id="flags"></div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 3. THE DAY ------------------------------------------------------- -->
+  <section class="readout" id="day" aria-labelledby="dayHead">
+    <div class="wrap">
+      <div class="sec__head">
+        <h2 class="sec__name" id="dayHead">Your shooting day</h2>
+        <span class="sec__rule"></span>
+        <span class="sec__sum">Live against the current build</span>
+      </div>
+
+      <!-- The instrument: hours in, media and battery out. -->
+      <div class="sim">
+        <div class="sim__bloom" aria-hidden="true"></div>
+
+        <p class="sim__lead" id="daySum"></p>
+
+        <div class="sim__ctl" id="plannerControls"></div>
+
+        <div class="sim__viz">
+          <h3 class="sim__vizhead">Where each thing runs out</h3>
+          <div class="rw" id="runway"></div>
+          <p class="rw__key">
+            <span><i class="rw__key-solid"></i>Solid is while the day is rolling.</span>
+            <span><i class="rw__key-tail"></i>Outlined is what is left if it kept rolling at the same rate.</span>
+            <span><i class="rw__key-day"></i>The gold line is the end of the day; the dashed line is the last take.</span>
+          </p>
+        </div>
+
+        <div class="sim__eq" id="equations"></div>
+
+        <p class="ctl__note" id="scenarioNote"></p>
+      </div>
+
+      <details class="disc">
+        <summary class="disc__sum" id="detailToggle">Show the engineering behind these numbers</summary>
+        <div class="disc__body">
+          <p class="ctl__note ctl__note--warn" id="basisNote"></p>
+          <div class="charts" id="charts"></div>
+          <div id="plannerTable"></div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 4. THE LIST ------------------------------------------------------ -->
+  <section class="list" id="list" aria-labelledby="listHead">
+    <div class="wrap">
+      <div class="sec__head">
+        <h2 class="sec__name" id="listHead">Everything on the order</h2>
+        <span class="sec__rule"></span>
+        <button class="ghostlink" id="optToggle" aria-pressed="false">Add the optional 360 block</button>
+        <button class="ghostlink" id="resetBtn">Reset</button>
+      </div>
+    </div>
+    <div id="packages"></div>
+  </section>
+
+  <!-- 5. ORDER --------------------------------------------------------- -->
+  <section class="checkout" id="order" aria-labelledby="orderHead">
+    <div class="wrap">
+      <div class="sec__head">
+        <h2 class="sec__name" id="orderHead">What it costs and how to order it</h2>
+        <span class="sec__rule"></span>
+      </div>
+
+      <div class="totals glass" id="totals"></div>
+
+      <div class="totals glass" style="margin-top:1.1rem">
+        <p class="eyebrow">How to place this order</p>
+        <ol class="how">
+          <li>Copy the item numbers below.</li>
+          <li>Paste them into B&amp;H B2B Quick Order. They go straight to cart, nothing to search for.</li>
+          <li>Ask for a Price Review. Anything over $500 is routed to B&amp;H buyers and comes back within an hour to a business day.</li>
+          <li>Pay by Net Terms or PO at checkout. A resale or exemption certificate can be linked in My Account to drop the tax.</li>
+        </ol>
+        <p class="fine" id="b2bNote"></p>
+        <div class="btnrow">
+          <button class="btn btn--gold" id="copyBtn">Copy item numbers</button>
+          <a class="btn btn--ghost" href="https://www.bhphotovideo.com/b2b-guides/BandH-B2B-Step-by-Step.PDF" target="_blank" rel="noopener">B&amp;H B2B guide</a>
+          <button class="btn btn--ghost" onclick="window.print()">Print as order sheet</button>
+        </div>
+        <details class="disc">
+          <summary class="disc__sum">Show the item numbers</summary>
+          <div class="disc__body"><pre class="skus" id="skus"></pre></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>VEFILM &middot; Pedro Feria Pino &middot; <a href="https://www.pedroferiapino.com">pedroferiapino.com</a> &middot; 917-500-5327</p>
+  </div>
+</footer>
+
+<script src="assets/js/portal.js"></script>
+</body>
+</html>

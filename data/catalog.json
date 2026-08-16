@@ -1,0 +1,1562 @@
+{
+  "$schema": "./catalog.schema.md",
+  "meta": {
+    "docId": "VF-PORTAL-001",
+    "title": "EXIT FOUR Equipment Portal",
+    "issued": "2026-08-15",
+    "pricesVerifiedOn": "2026-08-16",
+    "priceDisclaimer": "Prices are B&H current as of the verification date shown and exclude tax.",
+    "consultant": {
+      "name": "Pedro Feria Pino",
+      "title": "Director of Photography",
+      "company": "VEFILM",
+      "email": "vefilm@gmail.com",
+      "phone": "917-500-5327",
+      "site": "https://www.pedroferiapino.com",
+      "location": "New York / Miami"
+    },
+    "client": {
+      "company": "EXIT FOUR",
+      "contacts": [
+        {
+          "name": "Lydia Rendon"
+        },
+        {
+          "name": "Jason Bolicki"
+        }
+      ]
+    },
+    "vendor": {
+      "name": "B&H Photo Video",
+      "address": "420 9th Ave, New York, NY 10001",
+      "b2bGuide": "https://www.bhphotovideo.com/b2b-guides/BandH-B2B-Step-by-Step.PDF",
+      "b2bSupport": "b2bsupport@bhphoto.com",
+      "orderingPhone": "212-239-7500 ext. 7745",
+      "notes": [
+        "B2B Quick Order accepts B&H item numbers straight to cart.",
+        "Price Review available on orders over $500, routed to B&H buyers, returned within 1 hour to 1 business day.",
+        "Net Terms and PO accepted at checkout. Tax exempt status can be linked in My Account.",
+        "B2B signup rejects Gmail, Yahoo and AOL addresses. Must be an exitfour.tv address."
+      ]
+    },
+    "salesTax": {
+      "jurisdiction": "New York City",
+      "rate": 0.08875,
+      "note": "Waived if EXIT FOUR links a resale or exemption certificate to their B&H account."
+    },
+    "shootDayHours": 12,
+    "tiers": {
+      "high": {
+        "label": "High End",
+        "rule": "Buy once. Outlives the camera bodies and carries to the next kit.",
+        "plain": "Buy the better version of every line. Costs more now, lasts past these camera bodies."
+      },
+      "standard": {
+        "label": "Standard",
+        "rule": "Does the job for the working life of this kit.",
+        "plain": "Take the cheaper option wherever a sound one exists. Same job, shorter horizon."
+      }
+    },
+    "auditedOn": "2026-08-16",
+    "verdict": {
+      "eyebrow": "The short answer",
+      "coveredTitle": "Covered",
+      "coveredLine": "Both cameras run the whole day and hold the whole day's footage.",
+      "shortTitle": "Short",
+      "shortLine": "As configured, the kit does not get through the day. The detail is below.",
+      "costTitle": "Cost",
+      "costLine": "Before tax, at today's B&H prices.",
+      "openTitle": "Open",
+      "openLineOne": "Decision still to make before this can be ordered.",
+      "openLineMany": "Decisions still to make before this can be ordered.",
+      "openNoneLine": "Every decision is made. The order is ready to place.",
+      "flagLineOne": "line I have flagged for a quick answer.",
+      "flagLineMany": "lines I have flagged for a quick answer."
+    },
+    "pricesVerifiedNote": "Every priced line was re-opened on a live product page on 2026-08-16. Five were then re-checked a second time by hand because a first pass had called them wrong: the ATEM Mini Pro (still $349.00 in stock; the $306.95 reported against it is the page's 'Used from' line), the SmallRig VB99 SE and the 4450 charger (which sum to the $349.63 already on the sheet, so that price stood), the Bescor coupler (Special Order, corrected) and the Kondor Blue dummy cable (link now serves a different part, replaced). Three lines carry no price on purpose and read At counter. Anything a vendor page does not state is marked so rather than filled in."
+  },
+  "owned": [
+    {
+      "id": "own-fx9",
+      "name": "Sony PXW-FX9 body, viewfinder, smart grip",
+      "category": "Camera"
+    },
+    {
+      "id": "own-fx3",
+      "name": "Sony ILME-FX3 body",
+      "category": "Camera"
+    },
+    {
+      "id": "own-24gm",
+      "name": "Sony FE 24mm f/1.4 GM",
+      "category": "Glass",
+      "note": "67mm front thread"
+    },
+    {
+      "id": "own-35gm",
+      "name": "Sony FE 35mm f/1.4 GM",
+      "category": "Glass",
+      "note": "67mm front thread"
+    },
+    {
+      "id": "own-shape",
+      "name": "SHAPE shoulder rig with baseplate, rods and grips",
+      "category": "Rig",
+      "note": "Lives on the FX9"
+    },
+    {
+      "id": "own-flowtech",
+      "name": "Sachtler flowtech carbon fiber legs with fluid head",
+      "category": "Support",
+      "note": "One set only. Ground spreader is worn and is being replaced."
+    },
+    {
+      "id": "own-shinobi",
+      "name": "Atomos Shinobi 5\" monitor with bezel",
+      "category": "Monitoring"
+    },
+    {
+      "id": "own-npf750",
+      "name": "4x Sony NP-F750 batteries with Atomos charger",
+      "category": "Power"
+    },
+    {
+      "id": "own-bpu69",
+      "name": "Sony BP-U 69Wh battery with BC-U1A charger",
+      "category": "Power",
+      "wh": 69,
+      "note": "Stays in service. The V-mount plate powers the camera through its DC barrel input, and the BC-U1A still charges this pack. Whether the plate leaves the camera's own BP-U slot free is NOT CONFIRMED: IndiPRO, B&H and Markertek all say only that it mounts on the back of the camera, which is where the BP-U mount sits, and none of them address the compartment. This sheet has claimed it both ways and neither claim had a source. Treat the 69Wh as a reserve only once someone has the plate in hand and can see it. The day model does not count it."
+    },
+    {
+      "id": "own-xqd120",
+      "name": "2x Sony 120GB G Series XQD cards",
+      "category": "Media",
+      "gb": 120,
+      "count": 2
+    },
+    {
+      "id": "own-qdasb1a",
+      "name": "Sony QDA-SB1A XQD adapter",
+      "category": "Media"
+    },
+    {
+      "id": "own-mrwg2",
+      "name": "Sony MRW-G2 card reader",
+      "category": "Media"
+    },
+    {
+      "id": "own-67nd",
+      "name": "67mm circular ND / polarizer",
+      "category": "Filtration"
+    },
+    {
+      "id": "own-pelican1560",
+      "name": "Pelican 1560 case",
+      "category": "Transport",
+      "note": "Foam is being replaced."
+    },
+    {
+      "id": "own-gopros",
+      "name": "Older GoPro cameras",
+      "category": "Action"
+    },
+    {
+      "id": "own-suction",
+      "name": "GoPro suction cup mount, Delkin Fat Gecko, extension arm, pivot arm",
+      "category": "Mounting"
+    }
+  ],
+  "outOfScope": [
+    "Audio",
+    "Portable SSDs",
+    "Pelican 1615 Air",
+    "Expendables",
+    "Tripods (second tripod handled as a separate decision)",
+    "Sony FE 24-105mm f/4 G"
+  ],
+  "cameras": [
+    {
+      "id": "fx3",
+      "name": "Sony FX3",
+      "bodyWatts": 7.3,
+      "bodyWattsSource": "https://www.sony.co.uk/electronics/support/camcorders-and-video-cameras-interchangeable-lens-camcorders/ilme-fx3/specifications",
+      "accessoryLoads": [
+        {
+          "label": "PortKeys LS7P",
+          "watts": 13
+        }
+      ],
+      "powerItems": [
+        "fx3-4-1",
+        "fx3-4-4"
+      ],
+      "mediaItems": [
+        "fx3-5-1"
+      ],
+      "codecs": [
+        {
+          "label": "XAVC S-I 4K 24p",
+          "mbps": 240
+        },
+        {
+          "label": "XAVC S-I 4K 30p",
+          "mbps": 300
+        },
+        {
+          "label": "XAVC S-I 4K 60p",
+          "mbps": 600
+        },
+        {
+          "label": "XAVC S 4K 24p Long GOP",
+          "mbps": 100
+        }
+      ]
+    },
+    {
+      "id": "fx9",
+      "name": "Sony FX9",
+      "bodyWatts": 35.2,
+      "bodyWattsSource": "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9",
+      "bodyWattsNote": "Sony figure includes viewfinder ON and a powered zoom lens. Conservative for prime lens use.",
+      "accessoryLoads": [
+        {
+          "label": "PortKeys LS7P",
+          "watts": 13
+        }
+      ],
+      "powerItems": [
+        "fx9-2-2"
+      ],
+      "mediaItems": [
+        "fx9-4-1"
+      ],
+      "ownedMedia": [
+        "own-xqd120"
+      ],
+      "codecs": [
+        {
+          "label": "XAVC-I 4K 24p",
+          "mbps": 240
+        },
+        {
+          "label": "XAVC-I 4K 30p",
+          "mbps": 300
+        },
+        {
+          "label": "XAVC-I 4K 60p",
+          "mbps": 600
+        },
+        {
+          "label": "XAVC-L 4K",
+          "mbps": 100
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "id": "fx3",
+      "name": "FX3 Package",
+      "orderId": "VF-FX3-001",
+      "intro": "Equipment order for the Sony FX3 package.",
+      "sections": [
+        {
+          "id": "fx3-01",
+          "num": "01",
+          "name": "Rig",
+          "items": [
+            {
+              "id": "fx3-1-1",
+              "ref": "1.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Kondor Blue Shoulder Rig Pro MKII, V-Mount",
+              "desc": "Air-inflated shoulder pad, pivot arms with rosette grips, swiveling V-mount battery plate with two 100W USB-C ports, height-adjustable 501 baseplate with 501 quick release plate, 12\" dovetail, two 18\" 15mm rods, two 1\" rods, two anti-twist M12 rod mounts. Battery plate powers camera, monitor and accessories from one V-mount.",
+              "tiers": {
+                "high": {
+                  "sku": "1879412-REG",
+                  "price": 1199.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1879412-REG/kondor_blue_kb_spavr2_bk_shoulder_rig_pro_mkii.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-1-1--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "No budget option. The cheaper route is two separate parts bolted together, loses the 501 baseplate and 12 inch ARRI dovetail that let this rig drop onto the head instead of being bolted to it, and its V-mount plate is a bare mount with no power distribution. This rig exists to run camera, monitor and accessories off one V-mount, which the substitute cannot do.",
+              "plain": "The shoulder rig. One battery on the back feeds the camera, the monitor and everything else, so there is one thing to swap instead of four."
+            },
+            {
+              "id": "fx3-1-2",
+              "ref": "1.2",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Tilta Camera Cage Pro Kit v2, Sony FX3 / FX30",
+              "desc": "Full cage, Xeno NATO top handle, 15mm LWS baseplate with adapter, two 7.9\" rods, left-side L-series power handgrip with run/stop cable, HDMI cable clamp. Removable top plate accepts the original Sony XLR audio handle. Integrated Arca base. Cage base is Arca-style. It carries a 501 plate on its 1/4\"-20 to drop onto the 501 baseplate in 1.1.",
+              "tiers": {
+                "high": {
+                  "sku": "1784281-REG",
+                  "price": 254.15,
+                  "url": "https://www.bhphotovideo.com/c/product/1784281-REG/tilta_ta_t16_c_tg_camera_cage_for_sony.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "fixNote": "Corrected 2026-08-15. Sheets carried $299.00 list; live B&H price is $254.15.",
+                  "image": "assets/img/items/fx3-1-2--high.webp"
+                },
+                "standard": {
+                  "sku": "1784276-REG",
+                  "price": 152.15,
+                  "url": "https://www.bhphotovideo.com/c/product/1784276-REG/tilta_ta_t16_a_b_camera_cage_for_sony.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "tradeoff": "Tilta Camera Cage Basic Kit v2. Same cage and top handle, loses the left-side Advanced Power Handle with run/stop and its 8V USB-C and 12V DC outputs.",
+                  "image": "assets/img/items/fx3-1-2--standard.webp"
+                }
+              },
+              "plain": "The metal frame around the FX3. Gives it a top handle, a side grip with record start/stop, and somewhere to bolt everything else."
+            },
+            {
+              "id": "fx3-1-3",
+              "ref": "1.3",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Kondor Blue NATO to NATO Swivel and Tilt Monitor Mount",
+              "desc": "Supports monitors up to 7\". 360 degree swivel, 180 degree tilt, NATO clamp pivots 90 degrees. Mounts to the NATO rail on the top handle in 1.2. Aluminum, 2.6 oz.",
+              "tiers": {
+                "high": {
+                  "sku": "1758629-REG",
+                  "price": 59.99,
+                  "url": "https://www.bhphotovideo.com/c/product/1758629-REG/kondor_blue_kb_smount_nn_nato_to_nato_swivel.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-1-3--high.webp"
+                },
+                "standard": {
+                  "sku": "1724543-REG",
+                  "price": 31.99,
+                  "url": "https://www.bhphotovideo.com/c/product/1724543-REG/smallrig_2906b_swivel_and_tilt_adjustable.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "tradeoff": "SmallRig 2906B. NATO clamp one end, 1/4\"-20 stud the other rather than NATO on both, so it will not move to a second NATO rail without an adapter. Rated to 9.3 lb, 360 degree swivel, 170 degree tilt.",
+                  "image": "assets/img/items/fx3-1-3--standard.webp"
+                }
+              },
+              "plain": "The arm that holds the monitor on the handle and lets it swivel and tilt."
+            }
+          ]
+        },
+        {
+          "id": "fx3-02",
+          "num": "02",
+          "name": "Monitoring",
+          "items": [
+            {
+              "id": "fx3-2-1",
+              "ref": "2.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "PortKeys LS7P 7\" HDMI / SDI Monitor, Wireless Camera Control",
+              "desc": "7\", 1920x1080, 1000 nits, 100% Rec.709. HDMI in to DCI 4K30, 3G-SDI in and out, HDMI and SDI loop out. Wireless camera control for the FX3 including touch focus and start/stop. 3D LUTs, waveform, false color, peaking, anamorphic de-squeeze. Powers from L-series battery or locking DC input. Ships with D-Tap to locking DC cable, antenna, USB drive, screen protector.",
+              "watts": 13,
+              "tiers": {
+                "high": {
+                  "sku": "1910161-REG",
+                  "price": 449.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1910161-REG/portkeys_ls7p_7_3g_sdi_4k_hdmi.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-2-1--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "A bright 7-inch monitor so the operator and the room can see the shot. It can also start and stop the FX3 wirelessly."
+            },
+            {
+              "id": "fx3-2-2",
+              "ref": "2.2",
+              "qty": 2,
+              "unit": "each",
+              "optional": false,
+              "name": "Kondor Blue Coiled Right-Angle HDMI Cable, 12 to 24\"",
+              "desc": "HDMI 2.0, full size HDMI male at both ends, right-angle. Coiled 12 to 24\", nylon braided jacket. Carries 4096 x 2160 at 60 Hz. FX3 full size HDMI out to the LS7P. Raven Black, matching the rig in 1.1. Limited lifetime warranty.",
+              "tiers": {
+                "high": {
+                  "sku": "1734327-REG",
+                  "price": 22.99,
+                  "url": "https://www.bhphotovideo.com/c/product/1734327-REG/kondor_blue_kb_fhdmi_12ra_bk_braided_coiled_right_angle.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-16",
+                  "fixNote": "Corrected 2026-08-15, priced 2026-08-16. The sheets bought micro-HDMI cables and stated the FX3 outputs over micro HDMI. Sony's own spec table for the ILME-FX3 gives HDMI OUTPUT as a full size Type-A jack, so the cable type was wrong and the description asserted a false fact about the client's own camera. Now specced and priced: KB-FHDMI-12RA-BK, full size HDMI male both ends, HDMI 2.0, 4096x2160 at 60Hz, in stock at $22.99. This line is no longer at counter."
+                },
+                "standard": null
+              },
+              "plain": "The cable from camera to monitor. Two, so there is a spare."
+            }
+          ]
+        },
+        {
+          "id": "fx3-03",
+          "num": "03",
+          "name": "Optics and Filtration",
+          "items": [
+            {
+              "id": "fx3-3-1",
+              "ref": "3.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Tilta Mirage VND Kit with Mirage Matte Box",
+              "desc": "Matte box with variable ND module, 1 to 9 stops. Clamps to 95mm, accepts 95mm circular and 4x5.65\" filters. Includes rigid hood, top flag, circular filter tray, filter pouch, VND module, 15mm LWS rod support and soft case. Adapter rings for 67, 72, 77 and 82mm. Both GM primes are 67mm.",
+              "tiers": {
+                "high": {
+                  "sku": "1661354-REG",
+                  "price": 369.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1661354-REG/tilta_mb_t16_a_mirage_vnd_kit.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-3-1--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "A matte box with a dial-in ND built in, so bright exteriors are handled by turning a ring instead of swapping filters."
+            },
+            {
+              "id": "fx3-3-3",
+              "ref": "3.2",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Tilta Illusion Black Mist 95mm, Grade 1/4",
+              "desc": "95mm circular, grade 1/4. Water white optical glass, double-sided nano coating. Reduces contrast and produces a glow around light sources while retaining shadow detail.",
+              "tiers": {
+                "high": {
+                  "sku": "1801223-REG",
+                  "price": 55.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1801223-REG/tilta_tf_95_bm14_illusion_95mm_black_mist.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-3-3--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "A diffusion filter. Softens contrast and glows highlights. The stronger of the two grades."
+            },
+            {
+              "id": "fx3-3-4",
+              "ref": "3.3",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Tilta Illusion Black Mist 95mm, Grade 1/8",
+              "desc": "95mm circular, grade 1/8. Water white optical glass, double-sided nano coating. Lightest of the black mist grades.",
+              "tiers": {
+                "high": {
+                  "sku": "1801224-REG",
+                  "price": 55.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1801224-REG/tilta_tf_95_bm18_illusion_95mm_black_mist.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-3-4--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "The same look, lighter."
+            },
+            {
+              "id": "fx3-3-5",
+              "ref": "3.4",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Tilta Illusion Polarizer, 95mm",
+              "desc": "95mm circular polarizer. Removes reflections from glass and water, increases color saturation. Cannot be used in the same slot as the VND module.",
+              "tiers": {
+                "high": {
+                  "sku": "1859505-REG",
+                  "price": 49.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1859505-REG/tilta_tf_95_pola_illusion_95mm_polarizer_filter.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-3-5--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "Kills reflections in glass and water and deepens colour."
+            }
+          ]
+        },
+        {
+          "id": "fx3-04",
+          "num": "04",
+          "name": "Power",
+          "items": [
+            {
+              "id": "fx3-4-1",
+              "ref": "4.1",
+              "qty": 1,
+              "unit": "kit",
+              "optional": false,
+              "name": "Core SWX NANO X V98, Two Batteries plus Dual Travel Charger",
+              "desc": "Two 98Wh 14.8V V-mount packs, 10A continuous draw. 12V D-Tap output, 100W USB-C PD input and output, 5V USB-A output, EmLED display, 1/4-20 thread. GPM-X2S charger runs both at 1.5A each or one at 3A in under 2.5 hours. List $788.",
+              "wh": 98,
+              "cells": 2,
+              "tiers": {
+                "high": {
+                  "sku": "1837887-REG",
+                  "price": 554.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1837887-REG/core_swx_nanox_v98_2_x.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "fixNote": "Corrected 2026-08-15. The sheets linked 1812878-REG, which is a SINGLE 98Wh battery at $198.00 with no charger. Ordered as printed it would have stranded the FX3 with half its power and no way to recharge. 1837887-REG is the two battery plus dual charger kit and matches the $554.00 already quoted.",
+                  "image": "assets/img/items/fx3-4-1--high.webp"
+                },
+                "standard": {
+                  "sku": "1835966-REG",
+                  "price": 349.63,
+                  "url": "https://www.bhphotovideo.com/c/product/1835966-REG/smallrig_4608_vb99_se_mini_v.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "tradeoff": "Two SmallRig VB99 SE mini V-mounts plus the 4450 dual-channel charger. Capacity is a wash at 99Wh against 98Wh. Loses the Core SWX 10A continuous draw rating, the EmLED fuel gauge and the NexCore casing, and the charger is a mains desktop unit rather than a travel charger.",
+                  "image": "assets/img/items/fx3-4-1--standard.webp",
+                  "bundle": [
+                    {
+                      "sku": "1835966-REG",
+                      "qty": 2,
+                      "name": "SmallRig VB99 SE Mini V-Mount Battery",
+                      "price": 119.99
+                    },
+                    {
+                      "sku": "1827237-REG",
+                      "qty": 1,
+                      "name": "SmallRig 4450 Dual-Channel V-Mount Charger",
+                      "price": 109.65
+                    }
+                  ],
+                  "fixNote": "Corrected 2026-08-16. This tier was carried on 1835966-REG alone, which buys ONE VB99 SE at $119.99 and states \"Not Included: Chargers.\" The $349.63 is right for what the line describes, but ordering the single item number would have delivered $119.99 of gear against it. It is now itemised: 2 x 1835966-REG at $119.99 plus 1827237-REG at $109.65, which sums to $349.63. Both verified in stock 2026-08-16."
+                }
+              },
+              "plain": "The FX3's main power. Two batteries and the charger for them."
+            },
+            {
+              "id": "fx3-4-2",
+              "ref": "4.2",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Kondor Blue D-Tap to Sony NP-FZ100 Dummy Battery Cable",
+              "desc": "D-Tap to NP-FZ100 dummy battery. Powers the FX3 body from the V-mount plate in 1.1.",
+              "vendor": "B&H Photo Video",
+              "tiers": {
+                "high": {
+                  "sku": "1801199-REG",
+                  "price": 31.99,
+                  "stock": "In Stock",
+                  "verified": "2026-08-16",
+                  "url": "https://www.bhphotovideo.com/c/product/1801199-REG/smallrig_4253b_d_tap_to_np_fz100.html",
+                  "fixNote": "Corrected 2026-08-16. This tier held a Kondor Blue part at $39.99. That URL now serves \"D-Tap to Sony L-Series NPF Dummy Battery Cable\" (KB-DTAP-SL), which does not mention FZ100 anywhere and reads Sold Out. An L-series dummy cannot power an FX3, so ordering from that link would have bought a cable that does not fit the camera. Replaced with the SmallRig 4253B that was already the cheaper tier here: correct FZ100 fit, full decoding chip so the body raises no battery warning, in stock, and $8.00 less."
+                },
+                "standard": null
+              },
+              "plain": "The short cable that feeds the camera body from the rig battery.",
+              "noStandard": "Already the value option, and now the only one. The Kondor Blue alternative that used to sit above it is no longer the part its link points at."
+            },
+            {
+              "id": "fx3-4-3",
+              "ref": "4.3",
+              "qty": 4,
+              "unit": "mixed",
+              "optional": false,
+              "atCounter": true,
+              "name": "Sony L-Series NP-F Batteries and Dual Charger",
+              "desc": "Powers the Tilta side handle in 1.2, which takes an F550 or F570 and ships without a battery. Also powers the LS7P in 2.1. F570 is 7.2V 2200mAh, F970 is 6600mAh.",
+              "openQuestion": "Client already owns 4x NP-F750 and an Atomos charger. The Tilta handle in 1.2 takes an F550 or F570. Whether an NP-F750 clears the handle's plate decides whether this line is needed at all. Double check the fit with B&H before ordering.",
+              "tiers": {
+                "high": {
+                  "sku": null,
+                  "price": null,
+                  "url": "https://www.bhphotovideo.com/c/buy/Chargers-for-L-Series/ci/6280",
+                  "stock": null,
+                  "verified": null
+                },
+                "standard": null
+              },
+              "plain": "Small batteries for the side grip and the monitor. You may already own these, see the flag.",
+              "flagLabel": "You may already own these."
+            },
+            {
+              "id": "fx3-4-4",
+              "ref": "4.4",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Core SWX NANO X V98 Battery, additional",
+              "desc": "Third 98Wh V-mount pack. Body and monitor draw 20.3W together, so three packs give 294Wh and 14.5 hours, which covers a 12 hour day with margin. Same pack as the two in 4.1, charged by the same GPM-X2S.",
+              "wh": 98,
+              "cells": 1,
+              "tiers": {
+                "high": {
+                  "sku": "1812878-REG",
+                  "price": 198.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1812878-REG/core_swx_nano_v98x_nanox_micro_98wh_li_ion.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "image": "assets/img/items/fx3-4-4--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "A third battery, which is what takes the FX3 comfortably past a full day."
+            },
+            {
+              "id": "fx3-4-5",
+              "ref": "4.5",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Bescor NP-FZ100 Coupler and AC Adapter Kit",
+              "desc": "Runs the FX3 straight off a wall outlet. A dummy NP-FZ100 that sits in the camera's battery bay on a mains adapter. Complements the D-Tap dummy in 4.2 rather than replacing it: that one draws from the V-mount, this one from the wall.",
+              "tiers": {
+                "high": {
+                  "sku": "1489951-REG",
+                  "price": 48.45,
+                  "stock": "Special Order",
+                  "verified": "2026-08-16",
+                  "url": "https://www.bhphotovideo.com/c/product/1489951-REG/bescor_fz100ac_sony_style_fz100_dummy.html",
+                  "image": "assets/img/items/fx3-4-5--high.webp",
+                  "stockNote": "Expected availability 2 to 4 weeks, checked 2026-08-16."
+                },
+                "standard": null
+              },
+              "noStandard": "The step up is the Bescor combo kit at $129.99, which adds USB-C and D-Tap couplers. The D-Tap route is already covered by 4.2, so the extra $81.54 buys a duplicate."
+            }
+          ]
+        },
+        {
+          "id": "fx3-05",
+          "num": "05",
+          "name": "Media and Data",
+          "items": [
+            {
+              "id": "fx3-5-1",
+              "ref": "5.1",
+              "qty": 3,
+              "unit": "each",
+              "optional": false,
+              "name": "Sony 240GB CFexpress 4.0 Type A TOUGH Memory Card",
+              "desc": "240GB. 1700 MB/s write, 400 MB/s sustained. CFexpress 4.0. Sony TOUGH one-piece shell, IP57, rigidity tested to 150 N. Reads through the Sony MRW-G2 on hand. Three cards give 720GB, which covers a 6 hour 4K interview block plus 1080 coverage on one load.",
+              "gb": 240,
+              "tiers": {
+                "high": {
+                  "sku": "1920345-REG",
+                  "price": 268.0,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1920345-REG/sony_cea_g240t_240gb_cfexpress_4_0_type.html",
+                  "fixNote": "Replaced the 160GB CEA-G160T on 2026-08-15. The 240GB CFexpress 4.0 card is $268.00 against $398.00 for the 160GB: more capacity, 1700 MB/s write against 700, and $130 less per card. The old line bought less card for more money.",
+                  "image": "assets/img/items/fx3-5-1--high.webp"
+                },
+                "standard": {
+                  "sku": "1928882-REG",
+                  "price": 199.99,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1928882-REG/nextorage_nx_a2se256g_256gb_nx_a2se_cfexpress_type.html",
+                  "tradeoff": "Nextorage 256GB CFexpress 4.0 Type A, 1900 MB/s read and 1700 MB/s write. More capacity than the Sony for $68 less per card. Loses the Sony TOUGH shell and Sony's published 400 MB/s sustained-write figure.",
+                  "image": "assets/img/items/fx3-5-1--standard.webp"
+                }
+              },
+              "plain": "The FX3's memory cards. Three of them."
+            }
+          ]
+        },
+        {
+          "id": "fx3-06",
+          "num": "06",
+          "name": "Transport and Organization",
+          "items": [
+            {
+              "id": "fx3-6-1",
+              "ref": "6.1",
+              "qty": 1,
+              "unit": "set",
+              "optional": false,
+              "name": "Porta Brace PB-CSBAST Stuff Sack Kit, Set of 4",
+              "desc": "Set of four padded nylon sacks: PB-B812 at 12 x 8\", PB-B9 at 9 x 9\", PB-B6 at 5.25 x 5.75\", and CS-B9. Padded interiors, zippered tops, hook-and-loop compatible exteriors that fasten to case dividers. The four-pouch set beats buying singles.",
+              "tiers": {
+                "high": {
+                  "sku": "591142-REG",
+                  "price": 49.53,
+                  "url": "https://www.bhphotovideo.com/c/product/591142-REG/Porta_Brace_PB_CSBAST_PB_CSBAST_Stuff_Sack_Kit.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "fixNote": "Corrected 2026-08-15. The sheets linked a filtered category page rather than a product. Price was right; contents match PB-B812 / PB-B9 / PB-B6 / CS-B9.",
+                  "image": "assets/img/items/fx3-6-1--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "Four padded pouches so small parts stop rattling loose in the case."
+            },
+            {
+              "id": "fx3-6-2",
+              "ref": "6.2",
+              "qty": 3,
+              "unit": "each",
+              "optional": false,
+              "name": "Domke 19 x 19\" Color-Coded Protective Wrap",
+              "desc": "19 x 19\". Padded knit nylon with non-scratch nylon backing, touch-fastener tabs on all four corners. Available in multiple colors.",
+              "tiers": {
+                "high": {
+                  "sku": "16162-REG",
+                  "price": 23.99,
+                  "url": "https://www.bhphotovideo.com/c/product/16162-REG/Domke_722_19B_19x19_Color_Coded_Protective.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx3-6-2--high.webp"
+                },
+                "standard": {
+                  "sku": "1214563-REG",
+                  "price": 13.95,
+                  "url": "https://www.bhphotovideo.com/c/product/1214563-REG/ruggard_gw_19_b_19_x_19_padded.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "tradeoff": "Ruggard 19 x 19\" padded wrap. Same size and same job, loses Domke's colour coding and non-scratch nylon backing.",
+                  "image": "assets/img/items/fx3-6-2--standard.webp"
+                }
+              },
+              "plain": "Padded wraps for lenses and bare bodies in transit."
+            }
+          ]
+        }
+      ],
+      "plainIntro": "What it takes to turn the FX3 you already own into a rig that runs a full day."
+    },
+    {
+      "id": "fx9",
+      "name": "FX9 Package",
+      "orderId": "VF-FX9-001",
+      "intro": "Equipment order for the Sony FX9 package. Built around the FX9 body, viewfinder, smart grip, SHAPE shoulder rig, and the two GM primes on hand. The FX9 has internal electronic variable ND, so no matte box or filtration is required.",
+      "sections": [
+        {
+          "id": "fx9-01",
+          "num": "01",
+          "name": "Glass",
+          "items": [
+            {
+              "id": "fx9-1-1",
+              "ref": "1.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Laowa 100mm f/2.8 2X Ultra Macro APO, Sony E",
+              "desc": "Full frame 100mm macro, 2:1 magnification, 9.7\" minimum focus, focuses to infinity. Apochromatic design, 13-blade aperture, f/2.8 to f/22. Manual focus and manual aperture ring; no electronic contacts, so no data displays in camera. 67mm front thread, same as both GM primes, so the 67mm filters on hand fit it. Ships with hood and 67mm clear filter. 3-year warranty.",
+              "tiers": {
+                "high": {
+                  "sku": "1478041-REG",
+                  "price": 499.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1478041-REG/venus_optics_ve10028sfe_laowa_100mm_f_2_8_2x.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx9-1-1--high.webp"
+                },
+                "standard": {
+                  "sku": "1850571-REG",
+                  "price": 339.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1850571-REG/ttartisan_f10028_b_e_2x_100mm_f_2_8_macro_lens.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "tradeoff": "TTArtisan 100mm f/2.8 2x macro, Sony E. Same focal length, aperture, 2x magnification and 67mm front. Heavier: 748g against the Laowa's 638g, about 17 percent. Loses the apochromatic correction, so expect more fringing on specular macro highlights, and ships without the hood and 67mm clear filter the Laowa includes.",
+                  "image": "assets/img/items/fx9-1-1--standard.webp"
+                }
+              },
+              "plain": "A macro lens for extreme close-ups. Manual focus and manual aperture, with no electronic connection to the camera."
+            }
+          ]
+        },
+        {
+          "id": "fx9-02",
+          "num": "02",
+          "name": "Power",
+          "items": [
+            {
+              "id": "fx9-2-1",
+              "ref": "2.1",
+              "qty": 1,
+              "unit": "kit",
+              "optional": false,
+              "name": "IndiPRO Tools V-Mount Battery Adapter Plate for Sony PXW-FX9",
+              "desc": "V-mount plate for the PXW-FX9 with an integrated aluminium top plate, so it needs no separate mounting kit. Two unregulated 14.8V D-Tap outputs plus a 19.5V barrel output on a 5\" cable that powers the camera. Moves the FX9 onto the same V-mount system as the FX3 and the lighting block, so the whole kit runs one battery type and one charger.",
+              "wh": null,
+              "cells": null,
+              "tiers": {
+                "high": {
+                  "sku": "1569998-REG",
+                  "price": 169.99,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1569998-REG/indipro_tools_pdvfx9_v_mount_battery_adapter_plate.html",
+                  "fixNote": "Chosen over the SHAPE VPFX9 on 2026-08-15. SHAPE is $347.60, Special Order, and its own B&H page states it mounts using a separately required SHAPE FX9 top plate that was never on the sheet. The IndiPRO is $169.99, in stock, carries its top plate integrated, and has two D-Tap outputs against SHAPE's one.",
+                  "image": "assets/img/items/fx9-2-1--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "Puts the FX9 on the same battery type as the FX3, so the whole kit runs one battery and one charger.",
+              "noStandard": "Already the value option. The cheaper Hedbox is $69.99 but this plate carries the camera's entire power and both of its accessory D-Taps, which is not the place to save a hundred dollars."
+            },
+            {
+              "id": "fx9-2-2",
+              "ref": "2.2",
+              "qty": 6,
+              "unit": "each",
+              "optional": false,
+              "name": "Core SWX NANO X V98 Battery",
+              "desc": "Six 98Wh V-mount packs, 588Wh total. Body and monitor draw 48.2W together, giving 12.2 hours and covering the day on five swaps. Same pack as the FX3 carries, so batteries move between cameras.",
+              "wh": 98,
+              "cells": 1,
+              "tiers": {
+                "high": {
+                  "sku": "1812878-REG",
+                  "price": 198.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1812878-REG/core_swx_nano_v98x_nanox_micro_98wh_li_ion.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "image": "assets/img/items/fx9-2-2--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "The FX9's batteries. Six of them, and they are the same packs the FX3 uses."
+            },
+            {
+              "id": "fx9-2-3",
+              "ref": "2.3",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Core SWX GP-X4S Compact Quad V-Mount Charger",
+              "desc": "Four position V-mount charger, 2.6A across four bays or 3A across two. Four bays, 2.6A a bay, 2 hours 30 minutes for a 98Wh pack per B&H's spec. Nine packs across both cameras is three rounds, so about 7.5 hours: an overnight job, not an evening one. Running the two-bay GPM-X2S from 4.1 alongside it takes that to two rounds, nearer 5 hours.",
+              "tiers": {
+                "high": {
+                  "sku": "1658145-REG",
+                  "price": 299.0,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1658145-REG/core_swx_gp_x4s_compact_v_mount_4_position_fast.html",
+                  "image": "assets/img/items/fx9-2-3--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "A four-bay charger. Turns the whole kit's batteries around unattended overnight."
+            },
+            {
+              "id": "fx9-2-4",
+              "ref": "2.4",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "IndiPRO Tools AC Power Supply for Sony FX6 and FX9 (19.5V)",
+              "desc": "Runs the FX9 straight off a wall outlet. 19.5V barrel output, which is the FX9's own DC input, on an 8 foot cable. Worldwide 100 to 240V input with a plug adapter. On a locked-off interview the camera never touches a battery, so there is no swap to schedule and nothing to interrupt a take.",
+              "tiers": {
+                "high": {
+                  "sku": "1569988-REG",
+                  "price": 99.99,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1569988-REG/indipro_tools_acsfx9_19_5v_a_c_power_supply.html",
+                  "image": "assets/img/items/fx9-2-4--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "The Sony ACD-N10A does the same job as a V-mount AC adapter but costs $895.00. At $99.99 this is already the value answer, and it is the same brand as the V-mount plate on 2.1."
+            }
+          ]
+        },
+        {
+          "id": "fx9-03",
+          "num": "03",
+          "name": "Monitoring",
+          "items": [
+            {
+              "id": "fx9-3-1",
+              "ref": "3.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "PortKeys LS7P 7\" HDMI / SDI Monitor, Wireless Camera Control",
+              "desc": "7\", 1920x1080, 1000 nits, 100% Rec.709. 3G-SDI in and out, HDMI in to DCI 4K30, loop out on both. The FX9 outputs 12G-SDI and this monitor accepts 3G-SDI, so the camera's SDI output is set to HD for the feed. Same monitor as the FX3 package, one monitor type across both cameras. Powers from the D-Tap on the IndiPRO V-mount plate in 2.1 using the included D-Tap to locking DC cable, or from an L-series battery. 3D LUTs, waveform, false color, peaking, anamorphic de-squeeze.",
+              "watts": 13,
+              "tiers": {
+                "high": {
+                  "sku": "1910161-REG",
+                  "price": 449.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1910161-REG/portkeys_ls7p_7_3g_sdi_4k_hdmi.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/fx9-3-1--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "The same monitor the FX3 carries, so both cameras behave the same way on set."
+            },
+            {
+              "id": "fx9-3-2",
+              "ref": "3.2",
+              "qty": 2,
+              "unit": "each",
+              "optional": false,
+              "atCounter": true,
+              "name": "3G-SDI BNC Cable",
+              "desc": "Camera SDI out to monitor SDI in, one on the rig and one spare. Any 3G-rated BNC at 1 to 3 ft.",
+              "tiers": {
+                "high": {
+                  "sku": null,
+                  "price": null,
+                  "url": "https://www.bhphotovideo.com/c/buy/sdi-cables/ci/21873",
+                  "stock": null,
+                  "verified": null
+                },
+                "standard": null
+              },
+              "plain": "Camera to monitor, one on the rig and one spare."
+            }
+          ]
+        },
+        {
+          "id": "fx9-04",
+          "num": "04",
+          "name": "Media",
+          "items": [
+            {
+              "id": "fx9-4-1",
+              "ref": "4.1",
+              "qty": 4,
+              "unit": "each",
+              "optional": false,
+              "name": "Sony 120GB G Series XQD Memory Card (QD-G120F)",
+              "desc": "440 MB/s read, 400 MB/s write, VPG400. Identical to the two 120GB G Series cards already in the kit and reads through the QDA-SB1A adapter on hand. New stock, no wear history. The PXW-FX9 records to XQD only; CFexpress Type B shares the same physical connector, slides into the slot and is not recognised, so XQD is the only media this camera takes.",
+              "gb": 120,
+              "qtyNote": "Four cards gives 480GB of new media, matching the capacity the original sheet intended.",
+              "tiers": {
+                "high": {
+                  "sku": "1433124-REG",
+                  "price": 198.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1433124-REG/sony_qd_g120f_120gb_qxd_memory_card.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "fixNote": "Corrected 2026-08-15. The sheets bought 2x B&H USED 240GB QD-G240F at $256.95. That used listing is DEAD, it now redirects to a generic category page, and the new SKU 1433125-REG reads Discontinued. $513.90 of the FX9 package, 27 percent of it, pointed at nothing buyable. The sheet also claimed new Sony XQD was discontinued at B&H, which is false: QD-G120F is in stock at $198.00.",
+                  "image": "assets/img/items/fx9-4-1--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "B&H's entire live XQD stock is this card and a Nikon 64GB. XQD is end of life and $198 for 120GB is the floor.",
+              "plain": "The FX9's memory cards. This camera takes XQD and nothing else."
+            }
+          ]
+        }
+      ],
+      "plainIntro": "What it takes to finish the FX9, and to put both cameras on one battery and one charger."
+    },
+    {
+      "id": "misc",
+      "name": "Misc Package",
+      "orderId": "VF-MISC-001",
+      "intro": "Miscellaneous equipment order. Action camera, mounting, media, case foam and tripod spreader.",
+      "sections": [
+        {
+          "id": "misc-01",
+          "num": "01",
+          "name": "Action Camera",
+          "items": [
+            {
+              "id": "misc-1-1",
+              "ref": "1.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "GoPro HERO13 Black",
+              "desc": "5.3K60, 4K120 and 2.7K240 video, 27MP photos, 1/1.9\" sensor. 10-bit color with GP-Log encoding. HyperSmooth 6.0 stabilization with 360 degree Horizon Lock. Timecode sync across multiple GoPro cameras for multicam editing. Bluetooth audio connectivity. Waterproof to 33 ft without housing. 1900mAh Enduro battery, up to 1.5 hours at 5.3K/4K. Mounting fingers, 1/4-20 thread and magnetic latch interface. Ships with battery, curved adhesive mount, mounting buckle and USB-C cable.",
+              "tiers": {
+                "high": {
+                  "sku": "1846709-REG",
+                  "price": 379.99,
+                  "url": "https://www.bhphotovideo.com/c/product/1846709-REG/gopro_chdhx_131_th_hero13_black.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "list": 429.99,
+                  "fixNote": "Corrected 2026-08-15. Sheets carried $429.00; live B&H offer is $379.99.",
+                  "image": "assets/img/items/misc-1-1--high.webp"
+                },
+                "standard": {
+                  "sku": "1781065-REG",
+                  "price": 329.95,
+                  "url": "https://www.bhphotovideo.com/c/product/1781065-REG/gopro_chdhx_121_cn_hero12_black_action_camera.html",
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "tradeoff": "GoPro HERO12 Black. Same 5.3K60 and 27MP. Loses HB-series Lens Mod support, so no ND or macro mods, plus the larger Enduro battery and HERO13's low-light gains. Saves only $50 against the corrected HERO13 price.",
+                  "image": "assets/img/items/misc-1-1--standard.webp"
+                }
+              },
+              "plain": "A small action camera for car mounts and places the big cameras cannot go."
+            }
+          ]
+        },
+        {
+          "id": "misc-02",
+          "num": "02",
+          "name": "360 Camera",
+          "optional": true,
+          "items": [
+            {
+              "id": "misc-2-1",
+              "ref": "2.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": true,
+              "name": "GoPro MAX2 360 Action Camera",
+              "desc": "8K30 360 degree video from dual lenses, capturing every direction at once. A single unit covers a full vehicle interior or a group of subjects, with framing selected afterward in the Quik app and exported as flat 4K video. Also shoots 4K60 single-lens and 29MP 360 photos. Six microphones for 360 surround audio. Timecode sync with the HERO13 Black in 1.1 for multicam editing. Replaceable glass lenses, waterproof to 16 ft. 1/4-20 thread and folding mounting fingers, compatible with the suction mounts in 03.",
+              "tiers": {
+                "high": {
+                  "sku": "1917700-REG",
+                  "price": 299.99,
+                  "list": 499.99,
+                  "url": "https://www.bhphotovideo.com/c/product/1917700-REG/gopro_chdhz_311_th_max2_360_action_camera.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "promoNote": "$200 off list. No published end date.",
+                  "image": "assets/img/items/misc-2-1--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "Already 40 percent off list. Nothing at B&H matches the MAX2 spec below this price.",
+              "plain": "A 360 camera. One unit covers a whole car interior, and the framing is chosen afterwards in the edit."
+            },
+            {
+              "id": "misc-2-2",
+              "ref": "2.2",
+              "qty": 1,
+              "unit": "2-pack",
+              "optional": true,
+              "name": "SanDisk 256GB Extreme microSDXC, 2-Pack",
+              "desc": "Two cards for the MAX2. 245 MB/s read, 170 MB/s write, A2 / V30 / U3 / Class 10. Waterproof, shockproof, X-ray proof, rated -13 to 185F. Lifetime limited warranty.",
+              "gb": 256,
+              "cells": 2,
+              "tiers": {
+                "high": {
+                  "sku": "1970660-REG",
+                  "price": 149.98,
+                  "url": "https://www.bhphotovideo.com/c/product/1970660-REG/sandisk_256gb_extreme_uhs_i_microsdxc.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/misc-2-2--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "The obvious cheaper 2-pack, Lexar 1066x, reads No Longer Available. Every remaining option drops capacity.",
+              "plain": "Cards for the 360 camera."
+            }
+          ]
+        },
+        {
+          "id": "misc-03",
+          "num": "03",
+          "name": "Mounting",
+          "items": [
+            {
+              "id": "misc-3-1",
+              "ref": "3.1",
+              "qty": 2,
+              "unit": "each",
+              "optional": false,
+              "name": "GoPro Suction Cup Mount",
+              "desc": "3.4\" industrial-strength suction cup rated to 150+ mph, for vehicle body, windshield and glass. Includes standard base, quick release base and adjustable arms. Compatible with all GoPro HERO and MAX models. Two units allow simultaneous interior and exterior vehicle mounting, and join the GoPro suction cup and Delkin Fat Gecko already on hand.",
+              "tiers": {
+                "high": {
+                  "sku": "999131-REG",
+                  "price": 29.99,
+                  "url": "https://www.bhphotovideo.com/c/product/999131-REG/gopro_aucmt_302_suction_cup_mount.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/misc-3-1--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "SmallRig's mount saves $4.50 but publishes no vehicle-exterior speed rating, where GoPro's is rated for it. Not the place to save on a mount holding a camera to a moving car.",
+              "plain": "Suction mounts rated for the outside of a moving car."
+            }
+          ]
+        },
+        {
+          "id": "misc-04",
+          "num": "04",
+          "name": "Media",
+          "items": [
+            {
+              "id": "misc-4-1",
+              "ref": "4.1",
+              "qty": 1,
+              "unit": "2-pack",
+              "optional": false,
+              "name": "SanDisk 256GB Extreme microSDXC, 2-Pack",
+              "desc": "Two cards for the HERO13 Black. 245 MB/s read, 170 MB/s write, A2 / V30 / U3 / Class 10, which covers 5.3K60 and 4K120 recording. Waterproof, shockproof, X-ray proof, rated -13 to 185F. Lifetime limited warranty. Also replaces the existing GoPro card that will not wipe.",
+              "gb": 256,
+              "cells": 2,
+              "tiers": {
+                "high": {
+                  "sku": "1970660-REG",
+                  "price": 149.98,
+                  "url": "https://www.bhphotovideo.com/c/product/1970660-REG/sandisk_256gb_extreme_uhs_i_microsdxc.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/misc-4-1--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "Same as 2.2. SanDisk Extreme is the live floor at 256GB in a two pack.",
+              "plain": "Cards for the action camera."
+            }
+          ]
+        },
+        {
+          "id": "misc-05",
+          "num": "05",
+          "name": "Case and Support",
+          "items": [
+            {
+              "id": "misc-5-1",
+              "ref": "5.1",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Pelican 1561 Replacement Foam Set for 1560 Case",
+              "desc": "Four-piece factory foam set for the Pelican 1560 on hand: one egg crate lid section, two Pick 'N' Pluck sections and one 1\" blank bottom pad. Pre-scored cubes pluck out to form fitted cavities. Limited lifetime manufacturer warranty. B&H #PEFS1560, MFR #1560-400-000.",
+              "tiers": {
+                "high": {
+                  "sku": "404615-REG",
+                  "price": 68.77,
+                  "url": "https://www.bhphotovideo.com/c/product/404615-REG/Pelican_1560_400_000_1561_Foam_Set.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/misc-5-1--high.webp"
+                },
+                "standard": null
+              },
+              "noStandard": "Foam sets are case specific. The only other B&H option for a 1560 is the padded divider set at $199.95, nearly three times the price.",
+              "plain": "New foam for the Pelican case already in the kit."
+            },
+            {
+              "id": "misc-5-2",
+              "ref": "5.2",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Sachtler flowtech Ground Spreader",
+              "desc": "Fits both flowtech 75 and flowtech 100 legs. Foot-activated control extends the spreader arms without bending down. Spring-loaded latches release the feet for low-angle work or to use the internal leg stops. Radius 14.8 to 22.2\", 28 oz. Tripod still collapses with the spreader attached. MFR #S2058-0001. Replaces the worn spreader on the flowtech legs on hand.",
+              "tiers": {
+                "high": {
+                  "sku": "1457669-REG",
+                  "price": 630.0,
+                  "url": "https://www.bhphotovideo.com/c/product/1457669-REG/sachtler_s2058_0001_ground_spreader_flowtech.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "image": "assets/img/items/misc-5-2--high.webp"
+                },
+                "standard": {
+                  "sku": "used/1457669",
+                  "price": 446.95,
+                  "url": "https://www.bhphotovideo.com/c/used/1457669/sachtler_s2058_0001_ground_spreader_flowtech.html",
+                  "stock": null,
+                  "verified": "2026-08-12",
+                  "tradeoff": "B&H Used, condition 9 with minor surface marks, 90 day B&H warranty. Single copy available.",
+                  "condition": "used"
+                }
+              },
+              "plain": "Replaces the worn spreader on the tripod legs already in the kit."
+            }
+          ]
+        },
+        {
+          "id": "misc-06",
+          "num": "06",
+          "name": "Lighting Power and Distribution",
+          "note": "Lighting power lives entirely off the cameras. Serves both cameras' fixtures without touching the camera batteries.",
+          "items": [
+            {
+              "id": "misc-6-1",
+              "ref": "6.1",
+              "qty": 2,
+              "unit": "each",
+              "optional": false,
+              "name": "Core SWX Hypercore XL 293Wh V-Mount Battery",
+              "desc": "Two 293Wh V-mount bricks, 586Wh dedicated to lighting. They live on a stand or in the cart and never go on a camera. Run a 75W fixture for 7.8 hours or a 140W fixture for 4.2 hours. Charge on the same GP-X4S as every other pack in the kit.",
+              "wh": 293,
+              "cells": 1,
+              "tiers": {
+                "high": {
+                  "sku": "1427022-REG",
+                  "price": 847.0,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1427022-REG/core_swx_hcxl_v_hypercore_xl_293wh_14_8v.html",
+                  "image": "assets/img/items/misc-6-1--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "Two big batteries that live on the cart and run the lights. They never go on a camera, so lighting can never drain the cameras."
+            },
+            {
+              "id": "misc-6-2",
+              "ref": "6.2",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "SHAPE MDTVM Multi D-Tap V-Mount Plate",
+              "desc": "Four regulated 14.4V 10A D-Tap outputs, 144W per port, on a rod clamp. A brick mounts to this plate, so swapping bricks leaves the plate and the cable run in place. A camera battery D-Tap at 6A delivers 86W, which carries a 75W fixture but not a 140W one. These ports carry either.",
+              "tiers": {
+                "high": {
+                  "sku": "1655634-REG",
+                  "price": 129.99,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1655634-REG/shape_mdtvm_multi_d_tap_v_mount_plate.html",
+                  "image": "assets/img/items/misc-6-2--high.webp"
+                },
+                "standard": null
+              },
+              "openQuestion": "One plate serves both bricks, since the brick swaps onto it. A second plate at the same price would let a second fixture run in a different position at the same time.",
+              "plain": "The box a light plugs into. Four outputs, and the battery clips to it.",
+              "flagLabel": "A second one would let two lights run in different positions."
+            },
+            {
+              "id": "misc-6-3",
+              "ref": "6.3",
+              "qty": 1,
+              "unit": "each",
+              "optional": false,
+              "name": "Aputure D-Tap to 5.5mm DC Barrel Cable",
+              "desc": "Connects the distribution plate in 6.2 to a fixture taking a 5.5mm DC barrel input.",
+              "tiers": {
+                "high": {
+                  "sku": "1798866-REG",
+                  "price": 10.0,
+                  "stock": "In Stock",
+                  "verified": "2026-08-15",
+                  "url": "https://www.bhphotovideo.com/c/product/1798866-REG/aputure_apa0209pj4_d_tap_to_5_5mm_dc.html",
+                  "image": "assets/img/items/misc-6-3--high.webp"
+                },
+                "standard": null
+              },
+              "plain": "The cable from that box to a light."
+            }
+          ]
+        }
+      ],
+      "plainIntro": "Action cameras, car mounts, cards, case foam, a tripod spreader, and separate battery power for lights."
+    }
+  ],
+  "designTargets": {
+    "powerHours": 12,
+    "powerBasis": "12 hours is the maximum day, not the typical one, and travel and lunch sit inside it. The kit is still sized to the full 12 so the worst day is covered, and the planner lets you dial the powered hours down to see the realistic case.",
+    "recordBasis": "Interview day: 6 h of 4K I-frame 24p at 108 GB/h plus 1 h of HD I-frame 30p at 49.95 GB/h = 698 GB per camera.",
+    "mediaTargetGb": 698,
+    "_scenarioNote": "Client operating fact, 2026-08-15: interviews are shot 4K and run 5 to 6 hours; everything else is 1080. A day is therefore two formats, not one, and media is modelled as segments. Hours are adjustable so the client can model their own day.",
+    "defaultScenario": "interview",
+    "scenarios": [
+      {
+        "id": "interview",
+        "label": "Interview day",
+        "detail": "Interviews in 4K running 5 to 6 hours, with 1080 for everything around them. Both cameras roll together through every setup.",
+        "poweredHours": 12,
+        "bothCamerasRoll": true,
+        "acNote": "The 4K block is what fills cards. Both bodies roll on every take, so neither camera can lend the other a card mid-interview.",
+        "segments": [
+          {
+            "label": "Interviews",
+            "formatId": "4k-i-24",
+            "hours": 6
+          },
+          {
+            "label": "Everything else",
+            "formatId": "hd-i-30",
+            "hours": 1
+          }
+        ],
+        "poweredHoursMax": 12
+      },
+      {
+        "id": "follow",
+        "label": "Follow story",
+        "detail": "Verite and handheld, all 1080. The camera is hot all day and records in bursts, so power binds long before media does.",
+        "poweredHours": 12,
+        "bothCamerasRoll": false,
+        "acNote": "Long powered standby with short takes. Batteries drain on a day where the cards barely fill.",
+        "segments": [
+          {
+            "label": "Interviews",
+            "formatId": "4k-i-24",
+            "hours": 0
+          },
+          {
+            "label": "Everything else",
+            "formatId": "hd-i-30",
+            "hours": 4
+          }
+        ],
+        "poweredHoursMax": 12
+      },
+      {
+        "id": "mixed",
+        "label": "Mixed day",
+        "detail": "A shorter 4K interview block with 1080 coverage around it. The common shape and the one worth sizing the kit against.",
+        "poweredHours": 12,
+        "bothCamerasRoll": true,
+        "acNote": "Sized between the two. If only one number gets planned for, plan for this one.",
+        "segments": [
+          {
+            "label": "Interviews",
+            "formatId": "4k-i-24",
+            "hours": 3
+          },
+          {
+            "label": "Everything else",
+            "formatId": "hd-i-30",
+            "hours": 2
+          }
+        ],
+        "poweredHoursMax": 12
+      }
+    ],
+    "_formatNote": "Bit rates verified against Sony's Help Guide and pro.sony recording format tables. FX3 XAVC S-I / S / HS and FX9 XAVC-I / XAVC-L carry identical bit rates at these frame rates, so one figure serves both cameras. Sony's FX9 page prints MBps on some rows, which is a typo; the identical DCI4K rows are labelled Mbps.",
+    "_formatSources": [
+      "https://helpguide.sony.net/ilc/2035/v1/en/contents/TP1000267898.html",
+      "https://www.sony.co.uk/electronics/support/camcorders-and-video-cameras-interchangeable-lens-camcorders/ilme-fx3/specifications",
+      "https://pro.sony/ue_US/products/handheld-camcorders/pxw-fx9"
+    ],
+    "formats": [
+      {
+        "id": "4k-i-24",
+        "label": "4K I-frame 24p",
+        "res": "4K",
+        "mbps": 240,
+        "gbPerHour": 108,
+        "verified": true
+      },
+      {
+        "id": "4k-i-30",
+        "label": "4K I-frame 30p",
+        "res": "4K",
+        "mbps": 300,
+        "gbPerHour": 135,
+        "verified": true
+      },
+      {
+        "id": "4k-i-60",
+        "label": "4K I-frame 60p",
+        "res": "4K",
+        "mbps": 600,
+        "gbPerHour": 270,
+        "verified": true
+      },
+      {
+        "id": "4k-lgop-24",
+        "label": "4K Long GOP 24/30p",
+        "res": "4K",
+        "mbps": 100,
+        "gbPerHour": 45,
+        "verified": true
+      },
+      {
+        "id": "4k-lgop-60",
+        "label": "4K Long GOP 60p",
+        "res": "4K",
+        "mbps": 150,
+        "gbPerHour": 67.5,
+        "verified": true
+      },
+      {
+        "id": "hd-i-24",
+        "label": "HD I-frame 24p",
+        "res": "HD",
+        "mbps": 89,
+        "gbPerHour": 40.05,
+        "verified": true
+      },
+      {
+        "id": "hd-i-30",
+        "label": "HD I-frame 30p",
+        "res": "HD",
+        "mbps": 111,
+        "gbPerHour": 49.95,
+        "verified": true
+      },
+      {
+        "id": "hd-i-60",
+        "label": "HD I-frame 60p",
+        "res": "HD",
+        "mbps": 222,
+        "gbPerHour": 99.9,
+        "verified": true
+      },
+      {
+        "id": "hd-lgop",
+        "label": "HD Long GOP",
+        "res": "HD",
+        "mbps": 50,
+        "gbPerHour": 22.5,
+        "verified": true
+      }
+    ],
+    "segmentFormatChoices": {
+      "Interviews": [
+        "4k-i-24",
+        "4k-i-30",
+        "4k-i-60",
+        "4k-lgop-24",
+        "4k-lgop-60"
+      ],
+      "Everything else": [
+        "hd-i-24",
+        "hd-i-30",
+        "hd-i-60",
+        "hd-lgop"
+      ]
+    },
+    "lightLoads": [
+      {
+        "label": "No fixture",
+        "watts": 0
+      },
+      {
+        "label": "Low, Aputure MC Pro class",
+        "watts": 7
+      },
+      {
+        "label": "Typical, amaran Ray 60c class",
+        "watts": 75
+      },
+      {
+        "label": "Heavy, amaran Ray 120c class",
+        "watts": 140
+      }
+    ],
+    "lightNote": "Verified maximum draws from B&H spec tables; fixtures themselves stay out of scope. Lighting runs off the dedicated bricks in Misc 06, never off a camera battery. On-board lights are not used on this kit. Checked 2026-08-16: the Ray 120c takes a barrel/coax input rated 12 to 24 VDC as well as USB-C PD, so a D-Tap at 14.4V is inside its range and the barrel cable in Misc 06 is the right shape of part. The headroom is the thing to watch, not the connector. 140W at 14.4V is 9.7A, against D-Tap ports rated 10A on the SHAPE plate, so the heavy case runs a single port at 97 percent of its rating and the cable itself is described for 60W class fixtures. The 75W case is 5.2A and comfortable. Run the 120c off its own included AC supply where there is power, and confirm the cable's current rating with B&H before feeding one from a brick.",
+    "powerBlocks": [
+      {
+        "id": "lighting",
+        "name": "Lighting Block",
+        "items": [
+          "misc-6-1"
+        ],
+        "note": "Dedicated to fixtures. Never mounted on a camera."
+      }
+    ],
+    "maxPoweredHours": 12,
+    "plain": {
+      "powerOk": "Enough battery for the whole day",
+      "powerShort": "Runs out of battery before the day ends",
+      "mediaOk": "Enough cards for the whole day",
+      "mediaShort": "Cards fill up before the day ends",
+      "powerWhat": "Battery",
+      "mediaWhat": "Memory cards",
+      "lightingWhat": "Lights",
+      "lightingIdle": "Separate batteries, so lights can never drain the cameras.",
+      "dayLead": "On this day",
+      "detailToggle": "Show the engineering behind these numbers"
+    },
+    "mainsNote": "Both cameras can run off mains. FX9 via its 19.5V DC input (FX9 2.4), FX3 via a dummy battery in the bay (FX3 4.5). $148.44 for the pair. On a locked-off interview neither camera touches a battery, which removes the one thing you cannot do mid-take: swap one.",
+    "roadPractice": "Client operating fact, 2026-08-15: on location they normally carry 2 to 4 power banks, 8 to 10 batteries in total. The 9 V-mount packs on this order (3 on the FX3, 6 on the FX9) sit inside that existing practice rather than above it.",
+    "_requirementsNote": "The old requirements array was removed 2026-08-16. It was a second, frozen copy of the power and media picture and every one of its four entries had gone stale: it still cited the SHAPE plate, a 240GB used listing that was delisted, 2 x 160GB cards the sheet no longer buys, and an on-sheet figure lower than the requirement it was measured against. Nothing rendered it, but Stanley is given the whole catalog and would have quoted it. The scenarios and the day model below are the single source for this now."
+  },
+  "openDecisions": [
+    {
+      "id": "second-tripod",
+      "question": "The kit has one tripod and two cameras that roll simultaneously.",
+      "status": "resolved",
+      "note": "Two options researched and price verified, neither yet on any sheet.",
+      "options": [
+        {
+          "label": "Match the flowtech",
+          "detail": "Sachtler aktiv8 flowtech75 system, 26.5 lb payload, same fast deploy as the legs they own.",
+          "sku": "1597838-REG",
+          "price": 2996.0,
+          "url": "https://www.bhphotovideo.com/c/product/1597838-REG/sachtler_s2068s_ftms_aktiv8_fluid_head_s2068s.html",
+          "verified": "2026-08-15",
+          "recommended": true
+        },
+        {
+          "label": "Budget, rigged FX3 only",
+          "detail": "Sachtler Ace XL Mark II on real flowtech 75 legs, 17.6 lb payload. Covers a rigged FX3, too light for a rigged FX9. With 75mm confirmed it mounts via the included adapter, but 17.6 lb is marginal under a rigged FX9.",
+          "sku": "1809429-REG",
+          "price": 1980.0,
+          "url": "https://www.bhphotovideo.com/c/product/1809429-REG/sachtler_1016ms_system_packages_75mm_ace.html",
+          "verified": "2026-08-15",
+          "recommended": false
+        }
+      ],
+      "unknown": "Bowl size confirmed by the client on 2026-08-15: 75mm.",
+      "plainTitle": "A second tripod",
+      "plainWhy": "You own one tripod. Both cameras roll at the same time, so one of them has nowhere to sit.",
+      "resolution": "Sachtler aktiv8 flowtech75 MS system, $2,996.00. Both cameras roll at once and either can end up on sticks, so the second tripod has to carry a rigged FX9 at 15 to 20 lb. The Ace XL Mark II tops out at 17.6 lb, which is too close to the line. The aktiv8 carries 26.5 lb and shares the 75mm bowl with the legs they already own, so heads and legs interchange freely across both sets."
+    },
+    {
+      "id": "wireless",
+      "question": "Wireless video to a director monitor, with A and B cam on one screen.",
+      "status": "resolved",
+      "note": "No wireless receiver on the market shows both cameras side by side. True multiview does not exist as a wireless product at any price, only downstream in a switcher. Switching between A and B on one monitor does exist, in three forms, all priced below. Every transmitter here takes full size HDMI, so the FX3 connects directly and neither camera needs a converter.",
+      "unknown": "Answered 2026-08-15: the PXW-FX9's SDI output is switchable to HD, so a 3G-SDI transmitter is all this needs and the 12G tier is not required.",
+      "options": [
+        {
+          "label": "Accsoon and ATEM",
+          "price": 3136.91,
+          "verified": "2026-08-15",
+          "detail": "Two Accsoon CineView Master 4K, a Blackmagic ATEM Mini Pro and a Video Assist 7\" monitor. Gives A/B switching, true side by side multiview, and app monitoring on four devices per camera. The only route that meets every requirement, and it costs less than the Teradek wireless alone.",
+          "url": "https://www.bhphotovideo.com/c/product/1854404-REG/accsoon_cvm4k_cineview_master_4k_sdi_hdmi.html",
+          "parts": [
+            "2x Accsoon CineView Master 4K, $849.00",
+            "Blackmagic ATEM Mini Pro, $349.00",
+            "Blackmagic Video Assist 7\" 12G, $985.00",
+            "HDMI and SDI cabling, $104.91"
+          ],
+          "cartWh": 864,
+          "note": "Swapping the Video Assist for an Atomos Shinobi 7 RX at $639.20 brings it to $2,791.11.",
+          "recommended": true
+        },
+        {
+          "label": "DJI, fewest boxes",
+          "price": 3639.94,
+          "verified": "2026-08-15",
+          "detail": "A DJI Transmission High-Bright Monitor combo plus a second transmitter. Both cameras on one 1500 nit monitor, switched by camera index. No switcher, no mains powered box on the cart, unlimited receivers and Ronin app viewers in Broadcast mode. One camera visible at a time, so no side by side.",
+          "url": "https://www.bhphotovideo.com/c/product/1706769-REG/dji_cp_rn_00000209_01_transmission_combo.html",
+          "parts": [
+            "DJI Transmission with High-Bright Monitor Combo, $2,499.00",
+            "DJI Wireless Video Transmitter, $1,099.00",
+            "HDMI and SDI cabling, $41.94"
+          ],
+          "cartWh": 132,
+          "note": "This is the same system I already run, so the workflow is known.",
+          "recommended": false
+        },
+        {
+          "label": "Teradek Bolt 6",
+          "price": 5818.91,
+          "verified": "2026-08-15",
+          "detail": "Two Bolt 6 LT 750 Deluxe kits into an ATEM Mini Pro and a Video Assist 7\". Best RF robustness and the standard rental houses carry. Bolt 6 has no mobile app at all, so phone and tablet monitoring needs a second parallel system at $938 more, taking it to $6,756.91.",
+          "url": "https://www.bhphotovideo.com/c/product/1723705-REG/teradek_10_2260_v_bolt_6_lt_750.html",
+          "parts": [
+            "2x Teradek Bolt 6 LT 750 RX/TX Deluxe Kit V-Mount, $2,190.00",
+            "Blackmagic ATEM Mini Pro, $349.00",
+            "Blackmagic Video Assist 7\" 12G, $985.00",
+            "HDMI and SDI cabling, $104.91"
+          ],
+          "cartWh": 1128,
+          "note": "Cart load is roughly twelve 98Wh bricks over 12 hours, so this needs an AC drop or a large cart battery.",
+          "recommended": false
+        }
+      ],
+      "warning": "Do not run any transmitter off a camera battery. Each unit needs its own power: the Accsoon and DJI take an L-series brick and ship the plate for it, and the Teradek kit priced here is the V-mount version. Taking the transmitter off the camera adds 108 to 132 Wh per camera per day, which is an entire extra 98Wh pack per camera, straight into a power budget that was only just rebuilt. Budget two spare L-series bricks per transmitter.",
+      "plainTitle": "Wireless video to a director's monitor",
+      "plainWhy": "So a director or client can watch what the cameras see without standing behind them.",
+      "resolution": "Accsoon CineView Master 4K pair into a Blackmagic ATEM Mini Pro and a Video Assist 7\", $3,136.91. It is the only one of the three that does everything asked: A and B on one monitor, true side by side multiview, and app monitoring on phones and tablets. Teradek has no mobile app at all and costs $2,682 more; DJI is tidier on the cart but shows one camera at a time."
+    }
+  ]
+}
